@@ -1,0 +1,57 @@
+.topheader {
+    padding-left: 10px;
+}
+
+.displayButton {
+    position: relative;
+}
+
+.displayButton button {
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+    border-color: white;
+}
+
+.selectGroup {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.headline{
+    color: rgb(223, 169, 234);
+    position:absolute;
+    right: 1100px;
+    top: 0px;
+}
+
+.dropOnClick {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10;
+}
+
+.dropOnClick>* {
+    width: 100%;
+}
+
+.btn {
+    background: #f8f8fa;
+    ;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.selectStyle {
+    width: 100px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 2px 5px;
+}
